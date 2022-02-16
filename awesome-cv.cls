@@ -110,7 +110,7 @@
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+\geometry{left=1.5cm, top=1cm, right=1.5cm, bottom=1.5cm, footskip=0.5cm}
 
 %% Header & Footer
 % Set offset to each header and offset
@@ -398,7 +398,8 @@
 % Usage: \makecvheader
 \newcommand*{\makecvheader}{
     \begin{flushleft}
-    \includegraphics[height=5cm]{\@picture}
+        \hspace{-1cm}
+        \includegraphics[height=5cm]{\@picture}
     \end{flushleft}
     \vspace{-4.5cm}
     \hspace{4cm}
